@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body><h1 style="background-color:red;">WebView Test page!</h1>
+<script type="text/javascript">
+console.log("Simple log test");
+console.warn("Simple warning test");
+console.error("Simple error test");
+bboxPlayer.onEnd = function() {
+    bboxPlayer.playVideo('https://www.youtube.com/watch?v=8869FmqcqlQ')
+};
+
+var x = 0;
+var y = 0;
+
+</script>
+
+<button type="button" onclick="bboxPlayer.playVideo('http://media.w3.org/2010/05/sintel/trailer.mp4')">Play OTT</button>
+<button type="button" onclick="bboxPlayer.playVideo('https://www.youtube.com/watch?v=8869FmqcqlQ')">Play YouTube</button>
+<button type="button" onclick="bboxPlayer.pause()">Pause</button>
+<button type="button" onclick="bboxPlayer.resume()">Resume</button>
+<button type="button" onclick="bboxPlayer.setBounds(100, 300, 640, 360, true)">Front</button>
+<button type="button" onclick="bboxPlayer.setBounds(100, 0, 640, 360, false)">Background</button>
+<button type="button" onclick="bboxPlayer.stop()">Stop</button>
+<button type="button" onclick="bboxPlayer.setBounds(x - 10, y, 640, 360, true); x -= 10">left</button>
+<button type="button" onclick="bboxPlayer.setBounds(x + 10, y, 640, 360, true); x += 10">right</button>
+<button type="button" onclick="bboxPlayer.setBounds(x, y - 10, 640, 360, true); y -= 10">up</button>
+<button type="button" onclick="bboxPlayer.setBounds(x, y + 10, 640, 360, true); y += 10">down</button>
+
+</body></html>

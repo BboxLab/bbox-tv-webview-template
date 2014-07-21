@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BboxApi-Android-TV">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/fr.bouyguestelecom.bboxapi.android.tv/BboxApi-Android-TV/1.0/libs/YouTubeAndroidPlayerApi.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/fr.bouyguestelecom.bboxapi.android.tv/BboxApi-Android-TV/1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/fr.bouyguestelecom.bboxapi.android.tv/BboxApi-Android-TV/1.0/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
