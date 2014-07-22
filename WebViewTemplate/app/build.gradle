@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "fr.bouyguestelecom.webviewtemplate"
-        minSdkVersion 8
+        minSdkVersion 17
         targetSdkVersion 20
         versionCode 1
         versionName "1.0"
@@ -21,6 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'fr.bouyguestelecom.bboxapi.android.tv:BboxApi-Android-TV:1.0@aar'
+    compile 'fr.bouyguestelecom.bboxapi.android.tv:BboxApi-Android-TV-0.1.0@aar'
     compile 'com.android.support:appcompat-v7:20.+'
 }
